@@ -53,20 +53,3 @@ The project code is organized into functional blocks for modularity and maintain
 2. Extract and transform the data.
 3. Insert the data into a MySQL database.
 4. Create and deploy the dashboard.
-
-## Execution
-1. Install the required libraries: `pip install -r requirements.txt`
-2. Run the main script: `python main.py`
-3. Access the dashboard at the provided URL.
-
-## Future Work
-- Enhance dashboard features and interactivity.
-- Incorporate machine learning for predictive analytics.
-- Expand dataset and include additional metrics.
-
-## Contributors
-- [Your Name](link to your GitHub profile)
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
