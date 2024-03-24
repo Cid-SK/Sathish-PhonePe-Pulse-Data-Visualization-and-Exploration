@@ -7,7 +7,7 @@ import json
 from PIL import Image
 
 #sql connection
-mydb = mysql.connector.connect(host="localhost",user="root",password="sk23",database='p1')
+mydb = mysql.connector.connect(host="localhost",user="root",password="****",database='p1')
 mycursor = mydb.cursor(buffered=True)
 
 #sql data to df
