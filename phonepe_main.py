@@ -216,7 +216,6 @@ def user_df1(df,year,quarter):
         india_map.update_geos(visible=False)
         st.plotly_chart(india_map)
 
-#advance
 def charts(dstate1,dyear1,Quarter,dchart,ac):              
     ds=df_map_tran[df_map_tran["State"]==dstate1]
     ds.reset_index(drop = True,inplace = True)
@@ -286,7 +285,6 @@ def ot1():
             st.header(f"{rupee_symbol}{avg_Trans}")
             
         with st.container(border=True):
-#        with st.expander("See explanation"):
             st.header(":blue[Categories]",divider = 'red')
             col1,col2=st.columns(2)
             with col1:
@@ -479,10 +477,6 @@ def top_tpincode(statepc,yearpc):
         fig.update_xaxes(type='category')
         st.plotly_chart(fig)
 
-    #     df=pd.DataFrame(tt)
-    #     df.index = df.index + 1
-    #     st.table(df)
-            
 def top_upincode(statepc,yearpc):
     ps=df_top_user[df_top_user["State"]==statepc]
     py=ps[ps["Year"]==yearpc]
