@@ -37,14 +37,6 @@ The dataset is available in the PhonePe Pulse GitHub repository.
 - Dynamic updating
 - Project development and deployment
 
-## Evaluation Metrics
-- Modular code
-- Maintainability
-- Portability
-- Proper documentation
-- GitHub repository maintenance
-- Demo/Presentation video
-
 ## Code Structure
 The project code is organized into functional blocks for modularity and maintainability. Each major step (data extraction, transformation, database insertion, etc.) is implemented as a separate function or module.
 
